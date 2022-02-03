@@ -1,0 +1,16 @@
+Socket: AM4
+
+Supported memory type: DDR4
+Number of memory slots: 2
+Min. memory frequency: 2133MHz
+Max. memory frequency: 3200MHz
+Number of memory channels: 2
+Maximum memory capacity: 32Gb
+
+SATA ports quantity: 4
+
+Number of PCI-E x16 slots: 1
+
+Description: The main difference of this motherboard is support for high-speed RAM.
+
+Price: 5699

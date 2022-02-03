@@ -1,0 +1,8 @@
+Memory type: DDR4
+Capacity: 4Gb
+Frequency: 2400MHz
+Bandwidth: PC19200
+
+Description: If you want to build a good computer, then the Ratriot Signature [2400MP19200] RAM is created for you with a good volume + high clock frequency, there is also a heatsink.
+
+Price: 980

@@ -1,0 +1,3 @@
+HTML is the standardized markup language for web pages on the World Wide Web. HTML code is interpreted by browsers; the page obtained as a result of interpretation is displayed on the screen of a computer monitor or mobile device. Used to mark up sites.
+
+Price: 500

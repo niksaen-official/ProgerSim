@@ -1,0 +1,13 @@
+BioWPF - This is a program that is used to develop desktop applications in C # WPF
+
+System requirements:
+  CPU:
+   Frequency: 3000MHz +
+  GPU:
+   Volume: 1Gb +
+  RAM:
+   Volume: 8Gb +
+
+Disk space: 10Gb
+
+Price: 3000

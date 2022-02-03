@@ -1,0 +1,8 @@
+Memory type: DDR3
+Capacity: 4Gb
+Frequency: 1600MHz
+Bandwidth: PC12800
+
+Description: If you need a lot of RAM, then this module will suit you
+
+Price: 999

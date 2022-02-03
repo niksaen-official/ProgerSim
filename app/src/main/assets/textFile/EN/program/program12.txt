@@ -1,0 +1,9 @@
+Kotlin IDE - a program created specifically for developing android applications on Kotlin
+System requirements:
+   CPU:
+     Jntel Deleron G3930 or better
+   RAM:
+     Volume: 8GB +
+   Disk space: 20 GB +
+
+Price: 4500

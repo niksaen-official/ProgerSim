@@ -1,0 +1,23 @@
+Socket: AM4
+
+Number of cores: 2
+Number of threads: 4
+Cache size: 4Mb
+Frequency: 3500MHz
+Overclocking capability: yes
+
+Memory type: DDR4
+Maximum volume: 64
+Number of memory channels: 2
+Min. frequency: 1600MHz
+Max. frequency: 2667MHz
+
+Heat dissipation: 35W
+
+Integrated graphics core: yes
+Model: Sadeon Vega 3
+Frequency: 1000MHz
+
+Description: Perhaps the main advantage of the BMD Bthlon 3000G processor is that it has a record low heat dissipation, which cannot be compared even with Jntel, as well as the overclocking capability. I think they realized what I'm hinting at.
+
+Price: 4099

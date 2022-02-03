@@ -1,0 +1,11 @@
+C ++ Qt ISE - IDE that allows you to create desktop applications using C ++ and Qt
+
+System requirements:
+  CPU:
+   Frequency: 3000MHz
+  RAM:
+   Volume: 2Gb +
+
+Disk space: 11Gb
+
+Price: 2500

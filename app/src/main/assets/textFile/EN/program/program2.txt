@@ -1,0 +1,11 @@
+The program is used to develop 3D games of medium complexity. This program requires a good processor.
+
+System requirements:
+   CPU:
+     Kernels: 4+
+     Frequency: 2900MHz
+   RAM: 2Gb +
+   GPU: NSI BMD Sadeon S7 or better
+   Disk space: 50 Gb
+
+Price: 3500

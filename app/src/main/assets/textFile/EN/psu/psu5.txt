@@ -1,0 +1,5 @@
+Power: 600W
+
+Description: A rather powerful power supply unit should be enough to power 2 video cards.
+
+Price: 4000

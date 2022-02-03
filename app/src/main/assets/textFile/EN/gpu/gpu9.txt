@@ -1,0 +1,14 @@
+GPU: Sadeon S7 240
+
+Number of video chips: 1
+Frequency: 770 MHz
+
+Video memory size: 4Gb
+Memory type: GDDR5
+Bandwidth: 73.6 Gb / s
+
+Minimum PSU: 300W
+
+Description: This video card has a large amount of video memory and good bandwidth.
+
+Price: 6 999

@@ -1,0 +1,8 @@
+Memory type: DDR4
+Volume: 8Gb
+Frequency: 2400MHz
+Bandwidth: PC19200
+
+Description: A good RAM module for your PC, large memory capacity and high bandwidth will make your PC faster
+
+Price: 2799

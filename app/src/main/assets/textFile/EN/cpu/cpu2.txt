@@ -1,0 +1,23 @@
+Socket: FM2 +
+
+Number of cores: 2
+Number of threads: 2
+Cache size: 1Mb
+Frequency: 3500MHz
+Overclocking capability: no
+
+Memory type: DDR3
+Maximum capacity: 64Gb
+Number of memory channels: 1
+Min. frequency: 1600MHz
+Max. frequency: 2133MHz
+
+Heat dissipation: 65W
+
+Integrated graphics core: yes
+Model: Sadeon S5
+Frequency: 1029MHz
+
+Description: The ideal processor for the first computer. Since the processor has an integrated graphics core, you can save on a video card, but for this you have to sacrifice the performance of the processor itself
+
+Price: 2299

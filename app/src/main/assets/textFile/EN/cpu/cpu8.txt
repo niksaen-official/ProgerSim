@@ -1,0 +1,23 @@
+Socket: LGA 1151
+
+Number of cores: 2
+Number of threads: 4
+Cache size: 3Mb
+Frequency: 3700MHz
+Overclocking capability: no
+
+Memory type: DDR4
+Maximum capacity: 64Gb
+Number of memory channels: 2
+Min. frequency: 1333MHz
+Max. frequency: 2400MHz
+
+Heat dissipation: 51W
+
+Integrated graphics core: yes
+Model: Jntel HD Graphics 630
+Frequency: 1100MHz
+
+Description: This processor can not be a bad competitor to AMD, since it has a more advanced graphics core, and it also does not get as hot as its competitor
+
+Price: 8999

@@ -1,0 +1,23 @@
+Socket: AM4
+
+Number of cores: 4
+Number of threads: 4
+Cache size: 2Mb
+Frequency: 3100MHz
+Overclocking capability: no
+
+Memory type: DDR4
+Maximum capacity: 64Gb
+Number of memory channels: 2
+Min. frequency: 1600MHz
+Max. frequency: 2400MHz
+
+Heat dissipation: 65W
+
+Integrated graphics core: yes
+Model: Sadeon S7
+Frequency: 900MHz
+
+Description: The distinctive features of this processor are: multithreading, support for DDR4 RAM, a good graphics core
+
+Price: 3399

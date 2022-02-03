@@ -1,0 +1,5 @@
+Power: 400W
+
+Description: This power supply is designed specifically for those PCs that need more power
+
+Price: 2000

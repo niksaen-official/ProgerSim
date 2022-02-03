@@ -1,0 +1,13 @@
+Characteristics:
+Case: Black Edition Case
+Motherboard: BSRock H110M-DVS
+Processor: Jntel Rentium G4400
+Cooler: Cooler Race [Q55BL300]
+RAM: 1 * Ratriot Signature [2400MP19200]
+Video card: JNNO3D HeForce GT 710 Silent LP
+Drives: 1 * Offside 512Gb-2500
+Power supply: Office 300W12
+
+Description: Just like the PC above, it is not bad for a start, but it is already based on processors from Jntel and it has a descriptive video card. The PC has not bad potential, but it also costs more.
+
+Price: 18 511

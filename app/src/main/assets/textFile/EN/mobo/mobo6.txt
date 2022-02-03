@@ -1,0 +1,16 @@
+Socket: LGA 1151
+
+Supported memory type: DDR4
+Number of memory slots: 4
+Min. memory frequency: 2133MHz
+Max. memory frequency: 2400MHz
+Number of memory channels: 2
+Maximum memory capacity: 64Gb
+
+SATA ports quantity: 6
+
+Number of PCI-E x16 slots: 2
+
+Description: If you are assembling a gaming PC for relatively little money, then take this motherboard, its feature is that you can connect 2 video cards to it at once, but it is not cheap either
+
+Price: 7399

@@ -1,0 +1,7 @@
+Storage type: SSD
+
+Volume: 256Gb
+
+Description: This drive is suitable for those who need performance and a good amount of memory for relatively little money.
+
+Price: 4000

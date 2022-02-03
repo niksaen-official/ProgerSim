@@ -1,0 +1,12 @@
+Free BACK IDEA - a program that allows you to write scripts in PHP and NODE.js
+
+System requirements:
+  CPU:
+   Core: 2+
+   Frequency: 3100MHz +
+  RAM:
+   Capacity: 4Gb
+
+Disk space: 18Gb
+
+Price: 4000

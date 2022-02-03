@@ -1,0 +1,8 @@
+Java IDEA - a program that allows you to compile code written in Java
+
+System requirements:
+   RAM: 4Gb
+
+Disk space: 12Gb
+
+Price: 2000

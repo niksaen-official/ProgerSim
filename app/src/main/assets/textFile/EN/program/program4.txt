@@ -1,0 +1,11 @@
+tauCPP Game is used to develop pretty serious games, so the requirements for the pc are appropriate.
+
+System requirements:
+   CPU:
+     Kernels: 4+
+     Frequency: 3100MHz
+   RAM: 4Gb +
+   GPU: NSI BMD Sadeon S7 or better
+   Disk space: 80 Gb
+
+Price: 6700

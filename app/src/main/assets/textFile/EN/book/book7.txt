@@ -1,0 +1,3 @@
+MySQL is a free relational database management system. MySQL is developed and supported by Oracle Corporation. Used to create databases. To learn, you need to know PHP or Node.js and have a Junior level 3
+
+Price: 1200

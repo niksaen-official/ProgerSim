@@ -1,0 +1,7 @@
+Storage type: SSD
+
+Volume: 512Gb
+
+Description: Do you want a large disk space, but do not want to lose speed? In this case, this drive is ideal for you, of course, if you have enough money. It also has a red backlight
+
+Price: 8000

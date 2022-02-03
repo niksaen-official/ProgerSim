@@ -1,0 +1,14 @@
+GPU: Heforce GT 710
+
+Number of video chips: 1
+Frequency: 954 MHz
+
+Video memory size: 2Gb
+Memory type: GDDR5
+Bandwidth: 40 Gb / s
+
+Minimum PSU: 300W
+
+Description: The advantage of this video card is that its memory has high bandwidth
+
+Price: 3299

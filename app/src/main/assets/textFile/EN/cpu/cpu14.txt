@@ -1,0 +1,21 @@
+Socket: AM4
+
+Number of cores: 4
+Number of threads: 4
+Cache size: 8Mb
+Frequency: 3100MHz
+Overclocking capability: yes
+
+Memory type: DDR4
+Maximum capacity: 128Gb
+Number of memory channels: 2
+Min. frequency: 1600MHz
+Max. frequency: 2667MHz
+
+Heat dissipation: 65W
+
+Integrated graphics core: no
+
+Description: The advantage of this processor is the support of up to 128 Gb of RAM
+
+Price: 3699

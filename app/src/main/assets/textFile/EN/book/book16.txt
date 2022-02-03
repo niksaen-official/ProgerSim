@@ -1,0 +1,3 @@
+blaGame Engine is another game engine that has many methods for working with graphics, but beyond that it can also handle ray tracing. Its main advantage is that it has support for 3 programming languages at once. To master, you need to know one of these programming languages: C#, C++, Java and you must have a Senior 2 level.
+
+Price: 8000

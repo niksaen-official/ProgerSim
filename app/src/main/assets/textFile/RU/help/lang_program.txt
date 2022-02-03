@@ -1,0 +1,70 @@
+"->" - Указывает на программу
+"=>" - Указывает на книгу
+
+"Книга C"
+    |               |-> "Virtual Studio"
+    |               |-> "Hacking IDE"
+    |
+    |=> "Книга Qt" -> "C++ Qt ISE"
+
+"Книга Ruby"
+   |                        |-> "Ruby IDEA"
+   |                       |-> "Hacking IDE"
+   |
+   |=> "Книга Qt" -> "C++ Qt ISE"
+
+"Книга Java"
+    |                   |-> "Java IDEA"
+    |                   |-> "Hacking IDE"
+    |
+    |=> "Книга blaGame Engine" -> "blaGameEngine"
+    |=> "Книга JavaGame" ->"JavaGame"
+    |=> "Книга JavaFX" -> "JaaFXID"
+    |=> "Книга Android API" -> "Android IDEA"
+
+"Книга C#" -> "Virtual Studio"
+    |
+    |=> "Книга uniC#" -> "uniC#"
+    |=> "Книга C# Game LLC" -> "C# GameLLC"
+    |=> "Книга blaGame Engine" -> "blaGameEngine"
+    |=> "Книга C# WPF"-> "BioWPF"
+    |=> "Книга по WinForms"|-> "Virtual Studio"
+                                                   |-> "WinForms App Creator"
+
+"Книга C++"
+    |                  |-> "Virtual Studio"
+    |                  |-> "Hacking IDE"
+    |
+    |=> "Книга CPPame" -> "CPPame"
+    |=> "Книга tauCPP Game" -> "tauCPP Game"
+    |=> "Книга blaGame Engine" -> "blaGameEngine"
+    |=> "Книга Qt" -> "C++ Qt ISE"
+    |=> "Книга по wxWidgets"   |-> "Virtual Studio"
+                                                        |-> "wxWidgets IDE"
+
+"Книга Python"
+    |                       |-> "Virtual Studio"
+    |                       |-> "Hacking IDE"
+    |
+    |=> "Книга PythoAme" -> "PythoAme"
+    |=> "Книга Qt" -> "C++ Qt ISE"
+
+"Книга JavaScript" -> "Hacking IDE"
+   |
+   |=> "Книга caJS Engine" -> "caJS Engine"
+   |=> "Книга JS Engn" -> "JS Engn"
+
+"Книга Lua"
+   |
+   |=> "Книга LuaME" -> "LuaME"
+
+"Книга Kotlin" -> "Kotlin IDE"
+
+"Книга HTML" -> "FlaWEB IDE","Notepad"
+ "Книга CSS"  -> "FlaWEB IDE","Notepad"
+ "Книга JavaScript" -> "FlaWEB IDE"
+
+ "Книга MySQL" -> "Local Host"
+
+ "Книга PHP" -> "Free BACK IDEA"
+ "Книга Node.js" -> "Free BACK IDEA"

@@ -1,0 +1,8 @@
+Memory type: DDR4
+Capacity: 4Gb
+Frequency: 2133MHz
+Bandwidth: PC17000
+
+Description: This RAM module has a high frequency for little money
+
+Price: 1299

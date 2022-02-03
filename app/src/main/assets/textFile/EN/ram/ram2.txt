@@ -1,0 +1,8 @@
+Memory type: DDR3
+Volume: 2Gb
+Frequency: 1600MHz
+Bandwidth: PC12800
+
+Description: The advantage of this RAM is that for little money you will get a fairly high bandwidth and a relatively high clock frequency
+
+Price: 699

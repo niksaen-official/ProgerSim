@@ -1,0 +1,23 @@
+Socket: FM2 +
+
+Number of cores: 2
+Number of threads: 2
+Cache size: 1Mb
+Frequency: 3900MHz
+Overclocking capability: yes
+
+Memory type: DDR3
+Maximum capacity: 32Gb
+Number of memory channels: 2
+Min. frequency: 800MHz
+Max. frequency: 1866MHz
+
+Heat dissipation: 65W
+
+Integrated graphics core: yes
+Model: Sadeon S5
+Frequency: 756MHz
+
+Description: The main distinguishing feature of this processor is that it has overclocking capability. How you can improve the performance of your PC
+
+Price: 2599

@@ -1,0 +1,13 @@
+JaaFXID is a program that will allow you to create your own applications using JavaFX on pc and smartphones
+
+System requirements:
+  CPU:
+   Core: 4+
+  RAM
+   Volume: 2Gb +
+  GPU:
+   GPU: Sadeon HD5450 or better
+
+Disk space: 20Gb
+
+Price: 2000

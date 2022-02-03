@@ -1,0 +1,8 @@
+Memory type: DDR4
+Capacity: 4Gb
+Frequency: 2400MHz
+Bandwidth: PC19200
+
+Description: RAM from BMD, of course, is expensive, but you can boast to your friend that you have black RAM.
+
+Price: 999

@@ -1,0 +1,7 @@
+Version 2.4:
+List of changes:
+     1) Now you can change the wallpaper in your room
+     2) Fixed bug with memory leak
+     3) Added pets
+     4) Now you can change the type of activity (In the settings)
+     5) Added new tracks for the radio

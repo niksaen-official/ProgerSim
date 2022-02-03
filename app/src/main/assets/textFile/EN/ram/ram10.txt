@@ -1,0 +1,8 @@
+Memory type: DDR4
+Volume: 8Gb
+Frequency: 2133
+Bandwidth: PC1700
+
+Description: Just good RAM with a blue heatsink
+
+Price: 2999

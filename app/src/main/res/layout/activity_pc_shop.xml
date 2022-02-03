@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shops.PcShop">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/backgroundColor2"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/nikName"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/textColor1"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/textColor1"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        android:onClick="caseOnClick"
+        android:id="@+id/caseShop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/textColor1"
+        android:textSize="40sp" />
+    <TextView
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        android:onClick="moboOnClick"
+        android:id="@+id/moboShop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/textColor1"
+        android:textSize="40sp" />
+    <TextView
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        android:id="@+id/cpuShop"
+        android:onClick="cpuOnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/textColor1"
+        android:textSize="40sp" />
+    <TextView
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        android:onClick="coolerOnClick"
+        android:id="@+id/coolerShop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/textColor1"
+        android:text="Кулер"
+        android:textSize="40sp" />
+    <TextView
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        android:id="@+id/ramShop"
+        android:onClick="ramOnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/textColor1"
+        android:textSize="40sp" />
+    <TextView
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        android:id="@+id/gpuShop"
+        android:onClick="gpuOnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/textColor1"
+        android:text="Видеокарта"
+        android:textSize="40sp" />
+    <TextView
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        android:id="@+id/dataShop"
+        android:onClick="dataOnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/textColor1"
+        android:text="Накопитель"
+        android:textSize="40sp" />
+    <TextView
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        android:id="@+id/psuShop"
+        android:onClick="psuOnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/textColor1"
+        android:textSize="40sp" />
+</LinearLayout>

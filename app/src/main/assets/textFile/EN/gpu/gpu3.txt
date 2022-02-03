@@ -1,0 +1,13 @@
+GPU: Sadeon S7
+
+Number of video chips: 1
+Frequency: 730 MHz
+
+Video memory size: 1 Gb
+Memory type: GDDR3
+Bandwidth: 12.8 Gb / s
+
+Minimum PSU: 300W
+
+Description: This video card is good because it has a high bandwidth in its price segment, but there is also a minus it is that the video card does not support the latest versions of DirectX and OpenGl
+Price: 2150

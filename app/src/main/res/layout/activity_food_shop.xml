@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shops.FoodShopActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/backgroundColor2"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/nikName"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/textColor1"
+            android:textSize="35sp" />
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/moneyView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/money_icon"
+            android:gravity="center_vertical"
+            android:textColor="@color/textColor1"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/energy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/energy_icon"
+        android:gravity="center_vertical"
+        android:textColor="@color/textColor1"
+        android:textSize="40sp" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/textColor1"
+        android:textSize="50sp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Бургер-->
+        <LinearLayout
+        android:padding="5dp"
+        android:layout_marginVertical="5dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:src="@drawable/food1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:layout_marginStart="5dp"
+            android:onClick="foodClick"
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/textColor1"
+            android:gravity="center_vertical"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+        <!--Шаурма-->
+        <LinearLayout
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:src="@drawable/food2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:onClick="foodClick"
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/textColor1"
+            android:gravity="center_vertical"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+        <!--Пончик-->
+       <LinearLayout
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:src="@drawable/food3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:layout_marginStart="5dp"
+            android:onClick="foodClick"
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/textColor1"
+            android:gravity="center_vertical"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+        <!--Шоколадный батончик-->
+        <LinearLayout
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:src="@drawable/food4"
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:onClick="foodClick"
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/textColor1"
+            android:gravity="center_vertical"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+        <!--Пицца-->
+        <LinearLayout
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:src="@drawable/food5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:layout_marginStart="5dp"
+            android:onClick="foodClick"
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/textColor1"
+            android:gravity="center_vertical"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+        <!--Стейк-->
+        <LinearLayout
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:src="@drawable/food6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:layout_marginStart="5dp"
+            android:layout_marginVertical="5dp"
+            android:onClick="foodClick"
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/textColor1"
+            android:gravity="center_vertical"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+        <!--Роллы-->
+        <LinearLayout
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:src="@drawable/food7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:layout_marginStart="5dp"
+            android:layout_marginVertical="5dp"
+            android:onClick="foodClick"
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/textColor1"
+            android:gravity="center_vertical"
+            android:textSize="40sp" />
+        </LinearLayout>
+
+      </LinearLayout>
+    </ScrollView>
+</LinearLayout>

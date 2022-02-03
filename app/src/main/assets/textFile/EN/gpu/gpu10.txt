@@ -1,0 +1,14 @@
+GPU: Heforce GT 730
+
+Number of video chips: 1
+Frequency: 902 MHz
+
+Video memory size: 4Gb
+Memory type: GDDR3
+Bandwidth: 12.8 Gb / s
+
+Minimum PSU: 300W
+
+Description: If you need a powerful video card, then this model will suit you, video memory of 4 gigabytes and the latest graphics processor, give good performance among competitors
+
+Price: 5099

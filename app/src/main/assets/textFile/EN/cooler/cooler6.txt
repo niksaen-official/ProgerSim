@@ -1,0 +1,5 @@
+Power Dissipation: 90W
+
+Description: A good cooler for cooling the processor, its power dissipation will be enough for several generations to come, but it is not cheap either.
+
+Price: 1800

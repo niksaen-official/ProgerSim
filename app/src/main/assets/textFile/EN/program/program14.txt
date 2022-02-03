@@ -1,0 +1,11 @@
+FlaWEB IDE is a program that helps you create websites from simple to complex using HTML, CSS and JavaScript
+
+System requirements:
+  CPU:
+   Core: 4+
+  RAM:
+   Volume: 2Gb +
+
+Disk space: 30Gb
+
+Price: 5000

@@ -1,0 +1,14 @@
+GPU: Heforce GT 710
+
+Number of video chips: 1
+Frequency: 954MHz
+
+Video memory size: 2Gb
+Memory type: GDDR3
+Bandwidth: 14.4 Gb / s
+
+Minimum PSU: 300W
+
+Description: The main feature of this video card is the amount of video memory and its price
+
+Price: 2750

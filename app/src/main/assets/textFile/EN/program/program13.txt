@@ -1,0 +1,9 @@
+Android IDEA - a program that allows you to develop Android applications using the Android API
+System requirements:
+   CPU:
+     Frequency: 2900 MHz +
+   RAM:
+     Volume: 4GB +
+   Disk space: 15GB
+
+Price: 3300

@@ -1,0 +1,21 @@
+Socket: FM2 +
+
+Number of cores: 4
+Number of threads: 4
+Cache size: 4Mb
+Frequency: 3100MHz
+Overclocking capability: no
+
+Memory type: DDR3
+Maximum capacity: 64Gb
+Number of memory channels: 2
+Min. frequency: 800MHz
+Max. frequency: 2133MHz
+
+Heat dissipation: 65W
+
+Integrated graphics core: no
+
+Description: Not a bad processor for your money. High clock speed and 4 cores will turn your PC into an airplane, but that's not for sure
+
+Price: 1599

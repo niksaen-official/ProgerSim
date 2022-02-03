@@ -1,0 +1,21 @@
+Hacking IDE is a special hacking program, but unlike other similar programs, it allows you to use any of these programming languages to hack:
+1.C
+2.C ++
+3. Java
+4. Ruby
+5. Python
+6. JavaScript
+
+System requirements:
+   CPU:
+     Threads: 4
+     Frequency: 3500+
+   RAM:
+     Volume: 24Gb
+   GPU:
+     Memory capacity: 4Gb
+     Model: HeForce GT 710
+
+Disk space: 523Gb
+
+Price: 20000

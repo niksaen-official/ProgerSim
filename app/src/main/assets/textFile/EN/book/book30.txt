@@ -1,0 +1,3 @@
+wxWidgets (formerly wxWindows) is an open source cross-platform library of tools for developing cross-platform source-level applications. The main use of wxWidgets is to build a graphical user interface (GUI), but the library includes many other functions and is used to create a wide variety of software. You need to know C ++ to learn
+
+Price: 2500

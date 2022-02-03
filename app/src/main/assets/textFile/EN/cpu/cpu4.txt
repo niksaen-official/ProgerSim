@@ -1,0 +1,23 @@
+Socket: LGA 1151
+
+Number of cores: 2
+Number of threads: 2
+Cache size: 512Kb
+Frequency: 3300MHz
+Overclocking capability: no
+
+Memory type: DDR4, DDR3L
+Maximum capacity: 64Gb
+Number of memory channels: 2
+Min. frequency: 800MHz
+Max. frequency: 2400MHz
+
+Heat dissipation: 54W
+
+Integrated graphics core: yes
+Model: Jntel HD Graphics 510
+Frequency: 1000MHz
+
+Description: The Jntel Rentium G4400 processor was created for cheap PC assemblies, After all, it's probably not a secret for anyone that Jntel processors are not cheap, but for this exception, for its cost, you get support for DDR4 RAM
+
+Price: 3000

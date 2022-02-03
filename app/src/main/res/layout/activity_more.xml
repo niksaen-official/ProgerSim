@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor1"
+    tools:context=".more.MoreActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="@color/textColor1"/>
+
+    <TextView
+        android:id="@+id/content"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/textColor1"/>
+    <TextView
+        android:drawableStart="@drawable/vk_logo"
+        android:gravity="center_vertical"
+        android:id="@+id/link"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/textColor1"/>
+    <TextView
+        android:drawableStart="@drawable/youtube_logo"
+        android:gravity="center_vertical"
+        android:id="@+id/link2"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/textColor1"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/link3"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/textColor1"/>
+</LinearLayout>

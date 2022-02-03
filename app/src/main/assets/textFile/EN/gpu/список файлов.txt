@@ -1,0 +1,4 @@
+gpu1 = BSUS HeForce GT 710 Silent LP
+gpu2 = JNNO3D HeForce GT 710 Silent LP
+gpu3 = NSI BMD Sadeon S7 240 LP
+gpu4 = TAPPHIRE BMD Sadeon HD5450
