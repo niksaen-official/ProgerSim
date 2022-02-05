@@ -7,17 +7,17 @@ import android.content.SharedPreferences;
 import com.niksaen.progersim.R;
 
 public class LoadData {
-    Activity activity;
     SharedPreferences sharedPreferences;
 
     public LoadData(){}
     public LoadData(Activity activity){
-        this.activity = activity;
+        sharedPreferences = activity.getSharedPreferences("playerData", Context.MODE_PRIVATE);
+    }
+    public LoadData(Context activity){
         sharedPreferences = activity.getSharedPreferences("playerData", Context.MODE_PRIVATE);
     }
 
-    public void setActivity(Activity activity1) {
-        activity = activity1;
+    public void setActivity(Activity activity) {
         sharedPreferences = activity.getSharedPreferences("playerData", Context.MODE_PRIVATE);
     }
     public int getPets(){return sharedPreferences.getInt("Pets",0);}

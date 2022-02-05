@@ -217,6 +217,7 @@
                 app:layout_constraintStart_toEndOf="@+id/guideline"
                 app:layout_constraintVertical_bias="1.0" />
              <ImageView
+                 android:src="@drawable/dog_1_1"
                  android:id="@+id/pets"
                  android:layout_width="0dp"
                  android:layout_height="160dp"

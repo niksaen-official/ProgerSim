@@ -130,3 +130,9 @@ Version 2.1:
          2. ZShark 512S-8000 Blue
          2. ZShark 512S-8000 Red
      8) In honor of the new year, a gift of 2000 money to everyone
+ Version 2.4:
+     1) Now you can change the wallpaper in your room
+     2) Fixed bug with memory leak
+     3) Added pets
+     4) Now you can change the type of activity (In the settings)
+     5) Added new tracks for the radio

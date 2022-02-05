@@ -41,6 +41,8 @@ import com.niksaen.progersim.myClass.tutorial.TutorialDialog;
 import com.niksaen.progersim.shops.MainShop;
 
 import java.util.HashMap;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class MainPage extends Activity {
 
@@ -92,7 +94,8 @@ public class MainPage extends Activity {
         font = Typeface.createFromAsset(getAssets(), "font.ttf");
         //translation
         loadData.setActivity(this);
-        words = new Gson().fromJson(new Custom(this).getStringInAssets(this,"language/"+loadData.getLanguage()+".json"),new TypeToken<HashMap<String,String>>(){}.getType());
+        words = new Gson().fromJson(new Custom(this).getStringInAssets(this, "language/" + loadData.getLanguage() + ".json"), new TypeToken<HashMap<String, String>>() {
+        }.getType());
 
         ConstraintLayout layout = findViewById(R.id.main);
         custom.MainPageAnim(layout);
@@ -100,17 +103,16 @@ public class MainPage extends Activity {
         mediaPlayer.setVolume((float) 0.15, (float) 0.15);
         mediaPlayer.setLooping(true);
         mediaPlayer.start();
-
         initView();
         getSaveData();
         viewStyle();
         setViewData();
         setBonusSkills();
 
-        if(!loadData.getTutorial()) {
+        if (!loadData.getTutorial()) {
             new TutorialDialog(this, loadData).show(TutorialDialog.page);
         }
-        if (loadData.getLastVersion() != 14) {
+        if (loadData.getLastVersion() != 20) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             LayoutInflater layoutInflater = getLayoutInflater();
             View view = layoutInflater.inflate(R.layout.update_info_dialog, null);
@@ -123,13 +125,13 @@ public class MainPage extends Activity {
             text.setTypeface(font);
             exit.setTypeface(font, Typeface.BOLD);
 
-            text.setText(new Custom(this).getStringInAssets(this,"textFile/"+loadData.getLanguage()+"/update_info.txt"));
+            text.setText(new Custom(this).getStringInAssets(this, "textFile/" + loadData.getLanguage() + "/update_info.txt"));
 
             builder.setView(view);
             final AlertDialog dialog = builder.create();
             exit.setOnClickListener(v -> {
                 dialog.dismiss();
-                loadData.setLastVersion(14);
+                loadData.setLastVersion(20);
             });
             dialog.show();
         }
@@ -146,7 +148,7 @@ public class MainPage extends Activity {
         });
         skillList.setOnItemClickListener((parent, view, position, id) -> {
             buff_skill = _skill[position];
-            if(buff != null){
+            if (buff != null) {
                 buff.setBackgroundResource(R.color.backgroundColor1);
             }
             view.setBackgroundResource(R.color.backgroundColor2);
@@ -160,15 +162,30 @@ public class MainPage extends Activity {
         });
 
         skillButton.setOnClickListener(v -> {
-            if(skillList.getVisibility() == View.GONE){
+            if (skillList.getVisibility() == View.GONE) {
                 skillList.setVisibility(View.VISIBLE);
-            }else{
+            } else {
                 skillList.setVisibility(View.GONE);
             }
         });
-        if(loadData.getLearning()){
+        if (loadData.getLearning()) {
             DialogForLearn();
             dialogForLearn.setVisibility(View.VISIBLE);
+        }
+
+        if (loadData.getPets() != 0) {
+            TimerTask task = new TimerTask() {
+                @Override
+                public void run() {
+                    if (pet.getRotationY() == 0) {
+                        pet.setRotationY(180f);
+                    } else {
+                        pet.setRotationY(0f);
+                    }
+                }
+            };
+            Timer timer = new Timer();
+            timer.scheduleAtFixedRate(task, 0, 1000);
         }
     }
 

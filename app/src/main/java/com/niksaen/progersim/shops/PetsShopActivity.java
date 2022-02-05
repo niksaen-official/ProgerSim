@@ -92,6 +92,9 @@ public class PetsShopActivity extends AppCompatActivity {
     }
 
     private void setDataView(){
+        if (loadData == null){
+            loadData = new LoadData(this);
+        }
         moneyView.setText(String.format("    %d", (int) loadData.getMoney()));
     }
     private void initView(){
@@ -120,7 +123,7 @@ public class PetsShopActivity extends AppCompatActivity {
         PetsList.add(new ViewData(words.get("Dog")+" 7",custom.getStringInAssets(this, "textFile/"+loadData.getLanguage()+"/pets/8.txt"),6000,R.drawable.dog_4,"pets"));
     }
     public void CustomDialog(final Context context, final String title, String text, final int price, int image) {
-        loadData.setActivity((Activity) context);
+        LoadData loadData = new LoadData(context);
         Typeface font = Typeface.createFromAsset(context.getAssets(), "font.ttf");
         final AlertDialog.Builder builder = new AlertDialog.Builder(context);
         LayoutInflater inflater = ((Activity) context).getLayoutInflater();

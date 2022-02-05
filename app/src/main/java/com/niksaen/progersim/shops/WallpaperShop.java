@@ -95,6 +95,9 @@ public class WallpaperShop extends Activity {
     }
 
     private void setDataView(){
+        if (loadData == null){
+            loadData = new LoadData(this);
+        }
         moneyView.setText(String.format("    %d", (int) loadData.getMoney()));
     }
     private void initView(){
@@ -122,7 +125,7 @@ public class WallpaperShop extends Activity {
         wallpaperList.add(new ViewData(words.get("Wallpaper")+" 7",custom.getStringInAssets(this, "textFile/"+loadData.getLanguage()+"/wallpaper/7.txt"),1000,R.drawable.background_6,"wallpaper"));
     }
     public void CustomDialog(final Context context, final String title, String text, final int price, int image) {
-        loadData.setActivity((Activity) context);
+        LoadData loadData = new LoadData(context);
         Typeface font = Typeface.createFromAsset(context.getAssets(), "font.ttf");
         final AlertDialog.Builder builder = new AlertDialog.Builder(context);
         LayoutInflater inflater = ((Activity) context).getLayoutInflater();

@@ -135,7 +135,7 @@ public class CpuActivity extends Activity {
         super.onPause();
     }
     public void CustomDialog(final Context context, final String title, String text, final int price, int image) {
-
+        LoadData loadData = new LoadData(context);
         Typeface font = Typeface.createFromAsset(context.getAssets(), "font.ttf");
         final AlertDialog.Builder builder = new AlertDialog.Builder(context);
         LayoutInflater inflater = ((Activity) context).getLayoutInflater();

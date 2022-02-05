@@ -190,6 +190,7 @@ public class BookShop extends Activity {
         final AlertDialog.Builder builder = new AlertDialog.Builder(context);
         LayoutInflater inflater = ((Activity) context).getLayoutInflater();
         View layout = inflater.inflate(R.layout.dialog, null);
+        LoadData loadData = new LoadData(context);
         words = new Gson().fromJson(new Custom((Activity) context).getStringInAssets((Activity) context,"language/"+loadData.getLanguage()+".json"),new TypeToken<HashMap<String,String>>(){}.getType());
 
         ImageView imageView = layout.findViewById(R.id.image);
