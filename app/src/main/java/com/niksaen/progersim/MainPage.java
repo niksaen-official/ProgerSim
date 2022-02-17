@@ -46,8 +46,6 @@ import java.util.TimerTask;
 
 public class MainPage extends Activity {
 
-    //переменные
-    private String[] settings;
     static String level;
     public static float money;
     static float exp;
@@ -69,6 +67,7 @@ public class MainPage extends Activity {
     private ListView skillList;
 
     //дополнительные компоненты
+    Timer timer = new Timer();
     private Typeface font;
     private Custom custom = new Custom(this);
     @SuppressLint("StaticFieldLeak")
@@ -94,8 +93,7 @@ public class MainPage extends Activity {
         font = Typeface.createFromAsset(getAssets(), "font.ttf");
         //translation
         loadData.setActivity(this);
-        words = new Gson().fromJson(new Custom(this).getStringInAssets(this, "language/" + loadData.getLanguage() + ".json"), new TypeToken<HashMap<String, String>>() {
-        }.getType());
+        words = new Gson().fromJson(new Custom(this).getStringInAssets(this, "language/" + loadData.getLanguage() + ".json"), new TypeToken<HashMap<String, String>>() {}.getType());
 
         ConstraintLayout layout = findViewById(R.id.main);
         custom.MainPageAnim(layout);
@@ -112,7 +110,7 @@ public class MainPage extends Activity {
         if (!loadData.getTutorial()) {
             new TutorialDialog(this, loadData).show(TutorialDialog.page);
         }
-        if (loadData.getLastVersion() != 20) {
+        if (loadData.getLastVersion() != 21) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             LayoutInflater layoutInflater = getLayoutInflater();
             View view = layoutInflater.inflate(R.layout.update_info_dialog, null);
@@ -131,7 +129,7 @@ public class MainPage extends Activity {
             final AlertDialog dialog = builder.create();
             exit.setOnClickListener(v -> {
                 dialog.dismiss();
-                loadData.setLastVersion(20);
+                loadData.setLastVersion(21);
             });
             dialog.show();
         }
@@ -158,6 +156,7 @@ public class MainPage extends Activity {
             } else {
                 button1.setText(words.get("Code"));
             }
+            button1.setVisibility(View.VISIBLE);
             skillList.setVisibility(View.GONE);
         });
 
@@ -184,7 +183,6 @@ public class MainPage extends Activity {
                     }
                 }
             };
-            Timer timer = new Timer();
             timer.scheduleAtFixedRate(task, 0, 1000);
         }
     }
@@ -218,7 +216,8 @@ public class MainPage extends Activity {
         background.setBackgroundResource(loadData.getBackground());
         pet.setImageResource(loadData.getPets());
 
-        settings = new String[]{
+        //переменные
+        String[] settings = new String[]{
                 words.get("Menu:"),
                 words.get("News"),
                 words.get("Help"),
@@ -299,6 +298,7 @@ public class MainPage extends Activity {
         if(mediaPlayerForMusic != null) {
             mediaPlayerForMusic.stop();
         }
+        timer.cancel();
         mediaPlayer.stop();
         custom.MainPageAnimEnd();
         setData();

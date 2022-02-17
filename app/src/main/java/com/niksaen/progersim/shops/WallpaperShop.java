@@ -33,8 +33,8 @@ import java.util.TimerTask;
 
 public class WallpaperShop extends Activity {
     //переменны
-    float money;
-    int wallpaper;
+    static float money;
+    static int wallpaper;
     List<ViewData> wallpaperList = new ArrayList<>();
 
     //view
@@ -43,7 +43,7 @@ public class WallpaperShop extends Activity {
     public static TextView moneyView;
 
     //дополнительные компоненты
-    LoadData loadData = new LoadData();
+    LoadData loadData;
     Custom custom = new Custom(this);
     Typeface font;
     HashMap<String,String> words;
@@ -53,11 +53,11 @@ public class WallpaperShop extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cooler);
+        loadData = new LoadData(this);
+
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         font = Typeface.createFromAsset(getAssets(),"font.ttf");
-        loadData.setActivity(this);
         words = new Gson().fromJson(new Custom(this).getStringInAssets(this,"language/"+loadData.getLanguage()+".json"),new TypeToken<HashMap<String,String>>(){}.getType());
-
         setWallpaperList();
         initView();
         style();
@@ -94,11 +94,8 @@ public class WallpaperShop extends Activity {
         super.onPause();
     }
 
-    private void setDataView(){
-        if (loadData == null){
-            loadData = new LoadData(this);
-        }
-        moneyView.setText(String.format("    %d", (int) loadData.getMoney()));
+    private static void setDataView(){
+        moneyView.setText(String.format("    %d", (int) money));
     }
     private void initView(){
         avatar = findViewById(R.id.avatar);
@@ -178,8 +175,8 @@ public class WallpaperShop extends Activity {
                     runOnUiThread(() -> {
                         link2.setTextColor(Color.parseColor("#ffffff"));
                         if(loadData.getMoney()-price>=0) {
-                            loadData.setMoney(loadData.getMoney() - price);
-                            loadData.setBackground(image);
+                            money -= price;
+                            wallpaper = image;
                             setDataView();
                         }
                         dialog.cancel();

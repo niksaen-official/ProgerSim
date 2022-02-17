@@ -7,7 +7,7 @@ import android.content.SharedPreferences;
 import com.niksaen.progersim.R;
 
 public class LoadData {
-    SharedPreferences sharedPreferences;
+    private SharedPreferences sharedPreferences;
 
     public LoadData(){}
     public LoadData(Activity activity){
@@ -91,6 +91,7 @@ public class LoadData {
         setYouRam2("");
         setYouRam3("");
         setYouRam4("");
+        setBackground(R.drawable.background_0);
     }
 
     public float getMoney() { return sharedPreferences.getFloat("money", 18000); }

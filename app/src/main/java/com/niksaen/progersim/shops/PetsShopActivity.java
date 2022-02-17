@@ -32,8 +32,8 @@ import java.util.TimerTask;
 public class PetsShopActivity extends AppCompatActivity {
 
     //переменны
-    float money;
-    int Pets;
+    static float money;
+    static int Pets;
     List<ViewData> PetsList = new ArrayList<>();
 
     //view
@@ -74,28 +74,24 @@ public class PetsShopActivity extends AppCompatActivity {
 
     void getData(){
         money = loadData.getMoney();
-        Pets = loadData.getBackground();
     }
 
     @Override
     protected void onStop() {
         loadData.setMoney(money);
-        loadData.setBackground(Pets);
+        loadData.setPets(Pets);
         super.onStop();
     }
 
     @Override
     protected void onPause() {
         loadData.setMoney(money);
-        loadData.setBackground(Pets);
+        loadData.setPets(Pets);
         super.onPause();
     }
 
-    private void setDataView(){
-        if (loadData == null){
-            loadData = new LoadData(this);
-        }
-        moneyView.setText(String.format("    %d", (int) loadData.getMoney()));
+    private static void setDataView(){
+        moneyView.setText(String.format("    %d", (int) money));
     }
     private void initView(){
         avatar = findViewById(R.id.avatar);
@@ -176,8 +172,8 @@ public class PetsShopActivity extends AppCompatActivity {
                     runOnUiThread(() -> {
                         link2.setTextColor(Color.parseColor("#ffffff"));
                         if(loadData.getMoney()-price>=0) {
-                            loadData.setMoney(loadData.getMoney() - price);
-                            loadData.setPets(image);
+                            money -= price;
+                            Pets = image;
                             setDataView();
                         }
                         dialog.cancel();

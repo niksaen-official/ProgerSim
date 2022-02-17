@@ -52,6 +52,7 @@ public class MoreActivity extends Activity {
         content.setTypeface(font);
         link.setTypeface(font, Typeface.BOLD);
         linkYouTube.setTypeface(font, Typeface.BOLD);
+        music.setTypeface(font, Typeface.BOLD);
 
         link.setOnClickListener(v -> {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://vk.com/niksaengames"));
