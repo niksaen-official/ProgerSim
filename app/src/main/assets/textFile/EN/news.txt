@@ -139,3 +139,6 @@ Version 2.1:
  Patch for version 2.4:
      1) Fixed crashes when buying some items in the store
      2) Added animation for pets
+ Version 2.4.1:
+     1) Fixed crashes
+     2) Minor fixes

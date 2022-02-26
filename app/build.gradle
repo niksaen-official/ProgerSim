@@ -7,14 +7,19 @@ android {
         applicationId "com.niksaen.progersim"
         minSdkVersion 19
         targetSdkVersion 30
-        versionCode 21
-        versionName '2.4.1'
+        versionCode 22
+        versionName '2.4.2'
     }
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            lintOptions {
+                disable 'MissingTranslation'
+                checkReleaseBuilds false
+                abortOnError false
+            }
         }
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_8

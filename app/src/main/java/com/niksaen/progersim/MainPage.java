@@ -110,7 +110,7 @@ public class MainPage extends Activity {
         if (!loadData.getTutorial()) {
             new TutorialDialog(this, loadData).show(TutorialDialog.page);
         }
-        if (loadData.getLastVersion() != 21) {
+        if (loadData.getLastVersion() != 22) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             LayoutInflater layoutInflater = getLayoutInflater();
             View view = layoutInflater.inflate(R.layout.update_info_dialog, null);
@@ -129,7 +129,7 @@ public class MainPage extends Activity {
             final AlertDialog dialog = builder.create();
             exit.setOnClickListener(v -> {
                 dialog.dismiss();
-                loadData.setLastVersion(21);
+                loadData.setLastVersion(22);
             });
             dialog.show();
         }
