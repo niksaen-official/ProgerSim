@@ -2,9 +2,10 @@ package com.niksaen.progersim.more;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.niksaen.progersim.R;
 import com.niksaen.progersim.myClass.Custom;

@@ -1,9 +1,9 @@
 package com.niksaen.progersim.shops;
 
-import android.annotation.SuppressLint;
+import static com.niksaen.progersim.R.*;
+
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -13,6 +13,8 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -196,7 +198,7 @@ public class FoodShopActivity extends Activity {
         });
     }
 
-    public void foodClick(View v){
+    public void foodClick(@NonNull View v){
         String title,text;
         int energyBust = 0,price = 0,imageRes = 0;
         switch (v.getId()){
@@ -256,8 +258,7 @@ public class FoodShopActivity extends Activity {
                 imageRes = R.drawable.food7;
                 break;
             }
-            default:
-                throw new IllegalStateException("Unexpected value: " + v.getId());
+            default: title = "Errpr";
         }
         text = words.get("Restores")+":  "+energyBust+"\n"+words.get("Price")+":  "+price;
         custom.textLinkAnim(this, (TextView) v);

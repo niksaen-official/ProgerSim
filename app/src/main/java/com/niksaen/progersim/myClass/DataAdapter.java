@@ -4,13 +4,14 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Typeface;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -68,62 +69,59 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
         holder.textView.setTypeface(Typeface.createFromAsset(context.getAssets(), "font.ttf"), Typeface.BOLD);
 
         final String TYPE = data.getTYPE();
-        holder.itemView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                holder.textView.setTextColor(Color.BLUE);
-                switch (TYPE) {
-                    case "MOBO":
-                        activity = new MoboActivity();
-                        ((MoboActivity) activity).CustomDialog(context, title, text, price, image);
-                        break;
-                    case "CPU":
-                        activity = new CpuActivity();
-                        ((CpuActivity) activity).CustomDialog(context, title, text, price, image);
-                        break;
-                    case "RAM":
-                        activity = new RamActivity();
-                        ((RamActivity) activity).CustomDialog(context, title, text, price, image);
-                        break;
-                    case "COOLER":
-                        activity = new CoolerActivity();
-                        ((CoolerActivity) activity).CustomDialog(context, title, text, price, image);
-                        break;
-                    case "GPU":
-                        activity = new GpuActivity();
-                        ((GpuActivity) activity).CustomDialog(context, title, text, price, image);
-                        break;
-                    case "DATA":
-                        activity = new DataActivity();
-                        ((DataActivity) activity).CustomDialog(context, title, text, price, image);
-                        break;
-                    case "PSU":
-                        activity = new PsuActivity();
-                        ((PsuActivity) activity).CustomDialog(context, title, text, price, image);
-                        break;
-                    case "BOOK":
-                        activity = new BookShop();
-                        ((BookShop) activity).CustomDialog(context, title, text, price, image);
-                        break;
-                    case "program":
-                        activity = new ProgramShopActivity();
-                        ((ProgramShopActivity) activity).CustomDialog(context, title, text, price, image);
-                        break;
-                    case "pc":
-                        activity = new PcShopActivity();
-                        ((PcShopActivity) activity).CustomDialog(context, title, text, price, image);
-                        break;
-                    case "wallpaper":
-                        activity = new WallpaperShop();
-                        ((WallpaperShop) activity).CustomDialog(context, title, text, price, image);
-                        break;
-                    case "pets":
-                        activity = new PetsShopActivity();
-                        ((PetsShopActivity) activity).CustomDialog(context, title, text, price, image);
-                        break;
-                }
-                holder.textView.setTextColor(Color.WHITE);
+        holder.itemView.setOnClickListener(v -> {
+            holder.textView.setTextColor(Color.BLUE);
+            switch (TYPE) {
+                case "MOBO":
+                    activity = new MoboActivity();
+                    ((MoboActivity) activity).CustomDialog(context, title, text, price, image);
+                    break;
+                case "CPU":
+                    activity = new CpuActivity();
+                    ((CpuActivity) activity).CustomDialog(context, title, text, price, image);
+                    break;
+                case "RAM":
+                    activity = new RamActivity();
+                    ((RamActivity) activity).CustomDialog(context, title, text, price, image);
+                    break;
+                case "COOLER":
+                    activity = new CoolerActivity();
+                    ((CoolerActivity) activity).CustomDialog(context, title, text, price, image);
+                    break;
+                case "GPU":
+                    activity = new GpuActivity();
+                    ((GpuActivity) activity).CustomDialog(context, title, text, price, image);
+                    break;
+                case "DATA":
+                    activity = new DataActivity();
+                    ((DataActivity) activity).CustomDialog(context, title, text, price, image);
+                    break;
+                case "PSU":
+                    activity = new PsuActivity();
+                    ((PsuActivity) activity).CustomDialog(context, title, text, price, image);
+                    break;
+                case "BOOK":
+                    activity = new BookShop();
+                    ((BookShop) activity).CustomDialog(context, title, text, price, image);
+                    break;
+                case "program":
+                    activity = new ProgramShopActivity();
+                    ((ProgramShopActivity) activity).CustomDialog(context, title, text, price, image);
+                    break;
+                case "pc":
+                    activity = new PcShopActivity();
+                    ((PcShopActivity) activity).CustomDialog(context, title, text, price, image);
+                    break;
+                case "wallpaper":
+                    activity = new WallpaperShop();
+                    ((WallpaperShop) activity).CustomDialog(context, title, text, price, image);
+                    break;
+                case "pets":
+                    activity = new PetsShopActivity();
+                    ((PetsShopActivity) activity).CustomDialog(context, title, text, price, image);
+                    break;
             }
+            holder.textView.setTextColor(Color.WHITE);
         });
 
     }

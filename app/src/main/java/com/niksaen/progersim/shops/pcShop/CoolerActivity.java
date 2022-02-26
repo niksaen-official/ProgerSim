@@ -7,13 +7,14 @@ import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -21,7 +22,6 @@ import com.niksaen.progersim.R;
 import com.niksaen.progersim.myClass.Custom;
 import com.niksaen.progersim.myClass.DataAdapter;
 import com.niksaen.progersim.myClass.LoadData;
-import com.niksaen.progersim.myClass.Pc;
 import com.niksaen.progersim.myClass.ViewData;
 
 import java.util.ArrayList;

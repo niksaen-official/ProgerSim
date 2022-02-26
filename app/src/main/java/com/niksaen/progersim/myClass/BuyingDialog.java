@@ -5,8 +5,6 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Typeface;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -22,7 +20,7 @@ public class BuyingDialog{
 
     Context context;
     LoadData loadData;
-    private HashMap<String,String> words;
+    private final HashMap<String,String> words;
     public BuyingDialog(Context context,LoadData loadData,Activity activity){
         this.context = context;
         this.loadData = loadData;

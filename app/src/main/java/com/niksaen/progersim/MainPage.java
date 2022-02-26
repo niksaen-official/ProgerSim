@@ -9,7 +9,6 @@ import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.constraint.ConstraintLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
@@ -21,6 +20,8 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -110,7 +111,7 @@ public class MainPage extends Activity {
         if (!loadData.getTutorial()) {
             new TutorialDialog(this, loadData).show(TutorialDialog.page);
         }
-        if (loadData.getLastVersion() != 21) {
+        if (loadData.getLastVersion() != 22) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             LayoutInflater layoutInflater = getLayoutInflater();
             View view = layoutInflater.inflate(R.layout.update_info_dialog, null);
@@ -129,7 +130,7 @@ public class MainPage extends Activity {
             final AlertDialog dialog = builder.create();
             exit.setOnClickListener(v -> {
                 dialog.dismiss();
-                loadData.setLastVersion(21);
+                loadData.setLastVersion(22);
             });
             dialog.show();
         }

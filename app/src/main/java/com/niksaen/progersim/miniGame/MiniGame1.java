@@ -4,22 +4,18 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.os.Handler;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.niksaen.progersim.MainActivity;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.niksaen.progersim.MainPage;
 import com.niksaen.progersim.R;
 import com.niksaen.progersim.myClass.Custom;
-import com.niksaen.progersim.myClass.DebugDialog;
 import com.niksaen.progersim.myClass.ItemClickSupport;
-import com.niksaen.progersim.myClass.LoadData;
 import com.niksaen.progersim.myClass.Work;
-
-import java.util.Timer;
 
 public class MiniGame1 {
     Context context;
