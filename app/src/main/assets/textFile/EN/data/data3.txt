@@ -1,0 +1,7 @@
+Storage type: HDD
+
+Volume: 512 Gb
+
+Description: If you do not need the speed of reading data, but you need a lot of space for little money? Then the Offside 512Gb-2500 drive is ideal for you, its volume is relatively large for the money.
+
+Price: 2500

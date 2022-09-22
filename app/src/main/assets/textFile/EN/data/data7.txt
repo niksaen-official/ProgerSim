@@ -1,0 +1,7 @@
+Storage type: SSD
+
+Volume: 64Gb
+
+Description: Well, it's still better than nothing ...
+
+Price: 1200

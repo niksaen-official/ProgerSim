@@ -1,0 +1,8 @@
+Memory type: DDR3
+Volume: 2Gb
+Frequency: 1333MHz
+Bandwidth: PC10600
+
+Description: If you are building a very budget PC, then this RAM is especially for you. Its main advantage, in addition to the price, is a good volume for the money. The perfect choice for your first PC.
+
+Price: 499

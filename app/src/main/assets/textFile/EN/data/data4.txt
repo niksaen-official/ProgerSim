@@ -1,0 +1,7 @@
+Storage type: HDD
+
+Volume: 1Tb
+
+Description: Running out of space on your computer, but there is only one drive slot left? If you have money, then this drive is your salvation. Its volume will probably be enough for a lifetime.
+
+Price: 5000

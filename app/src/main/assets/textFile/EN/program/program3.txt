@@ -1,0 +1,13 @@
+CPPame is used to develop small games, its advantage is that it is lightweight.
+
+System requirements:
+   CPU:
+     Kernels: 2+
+     Frequency: 2900MHz
+   RAM:
+     Volume: 2Gb +
+     Type: DDR4
+   GPU: NSI BMD Sadeon S7 or better
+   Disk space: 20 Gb
+
+Price: 2500

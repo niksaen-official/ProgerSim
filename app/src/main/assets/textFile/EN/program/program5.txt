@@ -1,0 +1,10 @@
+If you have just started your journey into the game industry, then this engine is for you besides the fact that it is easy to learn, it is also not picky about the hardware.
+
+System requirements:
+   CPU:
+     Frequency: 2900MHz
+   RAM: 2Gb +
+   GPU: Jntel HD Graphics 510 or better
+   Disk space: 10 Gb
+
+Price: 4500

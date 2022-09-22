@@ -1,0 +1,8 @@
+Memory type: DDR4
+Volume: 8Gb
+Frequency: 2400MHz
+Bandwidth: PC19200
+
+Description: The same module as Gingstom NyperX FURY Black Series only in white and costs more
+
+Price: 3299

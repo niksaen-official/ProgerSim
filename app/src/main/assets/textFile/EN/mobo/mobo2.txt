@@ -1,0 +1,16 @@
+Socket: LGA1151
+
+Supported memory type: DDR4
+Number of memory slots: 2
+Min. memory frequency: 2133MHz
+Max. memory frequency: 2600MHz
+Number of memory channels: 2
+Maximum memory capacity: 32Gb
+
+SATA ports quantity: 4
+
+Number of PCI-E x16 slots: 1
+
+Description: The BSRock H110M-DVS motherboard is designed to build a good PC for relatively little money.
+
+Price: 3150

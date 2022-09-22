@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@color/backgroundColor1">
+    <ImageView
+        android:src="@drawable/book_androidapi"
+        android:id="@+id/icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <TextView
+        android:text="Идет изучение книги по андроид апи"
+        android:id="@+id/text"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ProgressBar
+        android:layout_marginTop="8dp"
+        android:progressDrawable="@drawable/progress_blue"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

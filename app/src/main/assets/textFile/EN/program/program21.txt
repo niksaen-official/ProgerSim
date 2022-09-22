@@ -1,0 +1,9 @@
+Ruby IDEA is a development environment designed for writing Ruby programs
+
+System requirements:
+   CPU:
+    Threads: 4+
+
+Disk space: 8Gb
+
+Price: 2400

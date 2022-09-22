@@ -1,0 +1,8 @@
+Memory type: DDR3
+Volume: 8Gb
+Frequency: 1600MHz
+Bandwidth: PC12800
+
+Description: This RAM module is distinguished by a huge memory reserve of as much as 8GB, for a small price
+
+Price: 1250

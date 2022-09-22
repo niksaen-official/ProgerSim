@@ -1,0 +1,13 @@
+Characteristics:
+Case: Black Edition Case
+Motherboard: BSRock Fatality H270M Performance
+Processor: Jntel Dore I5-7400
+Cooler: PcGaming Black Series
+Video card: Hygabyte HeForce GT 710 LP
+RAM: 2 * Gingstom NyperX FURY Black Series
+Drives: 2 * ZShark 256S-4000
+Power supply: ZShark 600W12V
+
+Description: This is a PC from the not unknown (at least in the game) company ZShark, it has a 2 GB video card and 16 GB of RAM, it also has 2 SSD-drives of 256 GB each. True, the price bites.
+
+Price: 46 360

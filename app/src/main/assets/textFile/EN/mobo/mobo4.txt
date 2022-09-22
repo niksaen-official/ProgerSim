@@ -1,0 +1,16 @@
+Socket: FM2 +
+
+Supported memory type: DDR3
+Number of memory slots: 2
+Min. memory frequency: 1333MHz
+Max. memory frequency: 2133MHz
+Number of memory channels: 2
+Maximum memory capacity: 32Gb
+
+SATA ports quantity: 4
+
+Number of PCI-E x16 slots: 1
+
+Description: This motherboard differs in that it has a rather good supply of RAM for installation
+
+Price: 3199

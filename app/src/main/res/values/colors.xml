@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <!--Цвета для фона-->
+    <color name="backgroundColor1">#1e1e1e</color>
+    <color name="backgroundColor2">#121212</color>
+    <color name="backgroundColor3">#AE131313</color>
+    <color name="ColorForDialog">#131313</color>
+    <!--Цвета для текста-->
+    <color name="textColor1">#FFFFFF</color>
+    <color name="textColor2">#FFFFFF</color>
+    <color name="textColorForDialog">#FFFFFF</color>
+
+    <color name="test">#4A148C</color>
+</resources>

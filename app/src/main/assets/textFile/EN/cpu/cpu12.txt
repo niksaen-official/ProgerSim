@@ -1,0 +1,21 @@
+Socket: AM4
+
+Number of cores: 4
+Number of threads: 4
+Cache size: 2Mb
+Frequency: 3500MHz
+Overclocking capability: no
+
+Memory type: DDR4
+Maximum capacity: 64Gb
+Number of memory channels: 2
+Min. frequency: 1600MHz
+Max. frequency: 2400MHz
+
+Heat dissipation: 65
+
+Integrated graphics core: no
+
+Description: A good multi-threaded processor with support for DDR4 RAM for little money, the disadvantage is the lack of a graphics core
+
+Price: 2499

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundColor1"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".shops.MainShop">
+    <!--создание тоолбара-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@color/backgroundColor2"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/nikName"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/textColor1"
+            android:textSize="35sp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/textColor1"
+        android:textSize="45sp" />
+    <LinearLayout
+        android:onClick="foodShopClick"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/food1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor1"
+            android:layout_marginStart="10dp"
+            android:textSize="45sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:onClick="bookShopClick"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/book_cs"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor1"
+            android:layout_marginStart="10dp"
+            android:textSize="45sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:onClick="pcShopClick"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/pc_iron_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor1"
+            android:layout_marginStart="10dp"
+            android:textSize="45sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:onClick="programShopClick"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/program_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor1"
+            android:layout_marginStart="10dp"
+            android:textSize="45sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:onClick="buyPcShopClick"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/zshark_gamer_black"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor1"
+            android:layout_marginStart="10dp"
+            android:textSize="45sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:onClick="wallpaperShopClick"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor1"
+            android:layout_marginStart="10dp"
+            android:textSize="45sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:onClick="petShopClick"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/dog_1_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/petShop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor1"
+            android:layout_marginStart="10dp"
+            android:textSize="45sp"/>
+    </LinearLayout>
+</LinearLayout>

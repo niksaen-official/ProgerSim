@@ -1,0 +1,23 @@
+Socket: LGA 1151
+
+Number of cores: 2
+Number of threads: 2
+Cache size: 512Kb
+Frequency: 2900MHz
+Overclocking capability: no
+
+Memory type: DDR4, DDR3L
+Maximum capacity: 64Gb
+Number of memory channels: 2
+Min. frequency: 800MHz
+Max. frequency: 2400MHz
+
+Heat dissipation: 51W
+
+Integrated graphics core: yes
+Model: Jntel HD Graphics 610
+Frequency: 1050MHz
+
+Description: If you want good performance, but do not want the processor to warm up like a reactor, you can take this processor from Jntel, plus you will get a good integrated graphics core
+
+Price: 3199

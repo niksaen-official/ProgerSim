@@ -1,0 +1,10 @@
+JS Engn is also used by indie game developers, but it already allows the use of 3D graphics, as a result of which a more advanced video card is required.
+
+System requirements:
+   CPU:
+     Cores: 2+
+   RAM: 2Gb +
+   GPU: Tapphire BMD Sadeon HD5450 or better
+   Disk space: 60 Gb
+
+Price: 4500

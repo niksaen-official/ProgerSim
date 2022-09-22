@@ -1,0 +1,148 @@
+Version 1.0:
+    1) Release
+
+Version 1.1: Updating Computer Components:
+    1) Added new motherboards: 4 pcs.
+    2) Added new processors: 6 pcs.
+    3) Added new video cards: 4 pcs.
+    4) Added new RAM modules: 5 pcs.
+    5) Added new coolers: 2 pcs.
+    6) Added new power supplies: 3 pcs
+
+Version 1.2 Support Small Screen:
+    1) Added support for small screens (beta-version)
+    2) Added a new game engine: JavaGame Luame
+    3) Added new line of business: Fullstack
+    4) Changed the view of the News screen
+    5) Added a new programming language: Lua
+
+Version 1.3 Fix Support Small Screen:
+    Fixed support for small screens
+
+Update 1.4 Food Shop Sale
+    1) The price of food is reduced by 25%
+    2) Reduced experience required to raise the level
+    3) Downgraded SDK version to 19
+
+Version 1.5 Hacking Update:
+    1) Added new operating system: Arch Linux
+    2) Added new field of activity: Hacker
+    3) Added two new programming languages: C, Ruby
+    4) Added the goal of the game (For Hackers)
+
+Version 1.5.1 Bug Fix:
+    1) Fixed a bug with updating data in the food store
+    2) Fixed crash of the game when entering the library
+    3) The avatar and nickname of the character are now displayed in the library toolbar
+
+Version 1.6 Add New Work:
+    1) Added 3 new ways of earning:
+        1. Distribution of leaflets
+        2. Work as a courier
+        3. Pizza delivery
+    2) When registering, you need to read the privacy policy
+    3) Game tips now appear on the loading screen
+    4) Changed the size of the cooler
+
+Version 1.7 Buying a PC:
+    1) Now you can buy the assembled PC
+    2) Small bug fix
+    3) Now game developers can buy the C book
+
+Version 1.8 Update Desktop Develop:
+    1) Fixed a bug with exiting the PC purchase activity
+    2) Added new technologies for desktop developers:
+        1. WinForms (for C#)
+        2. Qt (added support for Python, Ruby, C)
+        3.wxWidgets (for C++)
+
+Version 1.9 Pc Iron Update:
+    1) Added new motherboard:
+        BSUS Prime B350M-E (Socket: AM4)
+    2) Added 5 new processor models:
+        BMD A6-9500 (Socket: AM4)
+        BMD Bthlon X4 950 (Socket: AM4)
+        BMD A8-9600 (Socket: AM4)
+        BMD Ryzen 3 1200 (Socket: AM4)
+        BMD Bthlon 3000G (Socket: AM4)
+    3) Added 2 new RAM models
+        Ratriot Signature [D48G2133] (Type: DDR4)
+        Callistix Sport LT (Type: DDR4)
+
+Version 2.0:
+    1) Added support for English. You can change the language when you first start the game or in the settings
+    2) Changed the dialogue when buying food.
+    3) Added settings
+    4) Now you can change your nickname and avatar, for this go to settings
+    5) The program "My PC" has been renamed to "My Computer"
+    6) Corrections and improvements to the program "My Computer" / "My PC"
+    7) Now the number of buttons for selecting slots for installing accessories corresponds to the characteristics
+    8) Added a button to reset game data, located in the settings
+    9) Now pop-up windows do not close from accidental touch
+    10) Changed privacy policy
+    11) Now when you select a disk for installing / removing programs, as many disks are displayed as installed in the PC
+    12) Fixed a bug with updating data when buying a PC
+    13) Fixed a bug when components could be installed by themselves when assembling a PC
+    14) Fixed other critical bugs when building pc
+    15) Renamed cases for pc:
+        "White Edition Case" renamed to "White Edition" (The old name is maintained)
+        "Black Edition Case" renamed to "Black Edition" (The old name is maintained)
+        "Gray" renamed to "Gray" (The old name is maintained)
+    16) Added a link to the YouTube channel
+    17) Added new programs (for desktop developers):
+        WinForms App Creator
+        wxWidgets IDE
+    18) Fixed crash of the game when installing some programs
+    19) Fixed a bug when the energy could go to minus
+    20) Added mini-games
+    21) Added a hint on which program to install, for this, look in the "Help" section
+    22) Added text training (You can skip it);
+    23) Added new video cards:
+        BSUS BMD Sadeon S7 240 OC LP
+        JNNO3D HeForce GT 730 LP
+Version 2.1:
+     1) Reduced the chance of mini-games appearing
+     2) Now studying books will take time
+     3) Added new program: Notepad (only for WEB-developers)
+ Version 2.1 BF:
+     1) Fixed a bug when the study of the book did not end
+     2) Fixed a bug when the skill did not appear after studying the book
+     3) Now you can support me for this go to the section "About me"
+ Version 2.2:
+     1) Fixed a bug when restarting the game, the dialogue about the study of the book could appear again
+     2) Reduced by 2 times the amount of experience to increase the level
+     3) Fixed a bug where the keyboard sound could stop
+     4) Added background music to turn it on, tap the radio on the bookcase
+     5) Now in the skill selection list, the skills associated with programming will first go
+     6) Fixed a bug when the book could be studied again
+     7) Fixed a bug when the player could not program in Java, even after all conditions were met
+ Version 2.3:
+     1) Fixed a bug when a player could study the same book several times
+     2) Added sandbox mode (You need to pay 5000)
+     3) Added new cases for pc:
+         1. ZShark Gaming Blue
+         2. ZShark Gaming Red
+     4) Changed the design of the room in connection with the New Year
+     5) Minor improvements
+     6) Updated textures of drives
+     7) Added new drives:
+         1. Offside 64Gb-1200SD
+         2. ZShark 512S-8000 Blue
+         2. ZShark 512S-8000 Red
+     8) In honor of the new year, a gift of 2000 money to everyone
+ Version 2.4:
+     1) Now you can change the wallpaper in your room
+     2) Fixed bug with memory leak
+     3) Added pets
+     4) Now you can change the type of activity (In the settings)
+     5) Added new tracks for the radio
+ Patch for version 2.4:
+     1) Fixed crashes when buying some items in the store
+     2) Added animation for pets
+ Version 2.4.1:
+     1) Fixed crashes
+     2) Minor fixes
+ Version 2.4.2:
+     1) Fixed crashes when creating a character
+ Version 2.4.3:
+     1) Fixed bags

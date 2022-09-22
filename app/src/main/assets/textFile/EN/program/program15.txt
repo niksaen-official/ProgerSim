@@ -1,0 +1,11 @@
+Local Host is a program that can partially replace the server, if you need to test the database, then this program is perfect for you
+
+System requirements:
+  CPU:
+   Frequency: 3300MHz +
+  RAM:
+   Volume: 2Gb +
+
+Disk space: 16Gb
+
+Price: 6000

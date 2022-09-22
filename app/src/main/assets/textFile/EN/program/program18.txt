@@ -1,0 +1,14 @@
+The main distinguishing feature of this engine is its weight. The engine weighs only 6 Gb
+
+System requirements:
+CPU:
+   Streams: 4+
+   Frequency: 3500 MHz +
+RAM:
+   Volume: 16 Gb
+GPU:
+   Model: HeForce 710
+
+Disk space: 6Gb
+
+Price: 5000

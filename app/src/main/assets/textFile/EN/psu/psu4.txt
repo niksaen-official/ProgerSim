@@ -1,0 +1,5 @@
+Power: 500W
+
+Description: If you installed a gluttonous video card, then this power supply is your salvation
+
+Price: 3000

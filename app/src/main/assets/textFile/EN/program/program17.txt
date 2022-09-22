@@ -1,0 +1,14 @@
+JavaGame is a game engine that allows you to develop cross-platform 3D and 2D games. The great weight of the program is due to the fact that the engine has additional programs that will help in development.
+System requirements:
+   CPU:
+     Frequency: 3100 MHz +
+     Kernels: 4+
+   RAM:
+     Volume: 12 Gb
+   GPU:
+     Model: HeForce 710 or better
+     Capacity: 3Gb
+
+   Disk space: 150 Gb
+
+   Price: 3000

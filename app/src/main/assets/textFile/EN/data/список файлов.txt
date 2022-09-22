@@ -1,0 +1,4 @@
+data1 = ZShark 128S-2500
+data2 = ZShark 256S-4000
+data3 = Offside 512Gb-2500
+data4 = Offside 1Tb-5000

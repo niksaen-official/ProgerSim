@@ -1,0 +1,11 @@
+Virtual Studio is a development environment that allows you to work with several programming languages. Such as C, C ++, C #, Python.
+
+System requirements:
+CPU:
+   Frequency: 2900MHz +
+RAM:
+   Volume: 2Gb
+
+Disk space: 12Gb
+
+Price: 2500

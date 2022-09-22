@@ -1,0 +1,3 @@
+Kotlin is a statically typed, object-oriented programming language that runs on top of the Java Virtual Machine and is developed by JetBrains. Used to create android apps.
+
+Price: 1600

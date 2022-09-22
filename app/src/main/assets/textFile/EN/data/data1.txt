@@ -1,0 +1,7 @@
+Storage type: SSD
+
+Volume: 128 Gb
+
+Description: Looking for a cheap and fast drive? Then you need to take this drive, but its volume is quite small.
+
+Price: 2500

@@ -1,0 +1,13 @@
+GPU: Sadeon HD5450
+
+Number of video chips: 1
+Frequency: 650 MHz
+
+Video memory size: 1 Gb
+Memory type: GDDR3
+Bandwidth: 10.7 Gb / s
+
+Minimum PSU: 400W
+
+Description: Not a bad video card for starting the game, the minus is that it needs a good power supply.
+Price: 2150

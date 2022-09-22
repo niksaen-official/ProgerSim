@@ -1,0 +1,16 @@
+Socket: FM2 +
+
+Supported memory type: DDR3
+Number of memory slots: 2
+Min. memory frequency: 800MHz
+Max. memory frequency: 2600MHz
+Number of memory channels: 2
+Maximum memory capacity: 32Gb
+
+SATA ports quantity: 4
+
+Number of PCI-E x16 slots: 1
+
+Description: Well, there is nothing special to say about it except that it stands out because it has yellow slots for a video card and RAM
+
+Price: 3299

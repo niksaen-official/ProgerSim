@@ -1,0 +1,14 @@
+GPU: Heforce GT 710
+
+Number of video chips: 1
+Frequency: 954 MHz
+
+Video memory size: 1 Gb
+Memory type: GDDR3
+Bandwidth: 14.4 Gb / s
+
+Minimum PSU: 300W
+
+Description: A good video card, for which it is not a pity to give money, its advantage is its high bandwidth
+
+Price: 2499

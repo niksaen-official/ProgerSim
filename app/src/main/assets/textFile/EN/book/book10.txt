@@ -1,0 +1,3 @@
+JavaScript is a multi-paradigm programming language. Supports object oriented, imperative and functional styles. Used to add interactivity to the site
+
+Price: 900

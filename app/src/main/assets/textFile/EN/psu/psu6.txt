@@ -1,0 +1,5 @@
+Power: 700W
+
+Description: Who would have thought that a manufacturer of power supplies for office PCs would produce power supplies of such high power?
+
+Price: 6000

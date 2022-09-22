@@ -1,0 +1,3 @@
+WPF - used to create a desktop application, but its peculiarity is that DirectX is responsible for rendering graphic elements. You need to know C # to use
+
+Price: 1800

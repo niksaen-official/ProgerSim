@@ -1,0 +1,11 @@
+This program is used to develop 2D games. The main feature of this program is that it has low system requirements.
+
+System requirements:
+   CPU:
+     Kernels: 2+
+     Frequency: 2900MHz
+   RAM: 2Gb +
+   GPU: TAPPHIRE BMD Sadeon HD5450 or better
+   Disk space: 30 Gb
+
+Price: 1500

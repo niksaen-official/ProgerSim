@@ -1,0 +1,3 @@
+Python is a high-level general-purpose programming language focused on improving developer productivity and code readability. Used to create games
+
+Price: 800

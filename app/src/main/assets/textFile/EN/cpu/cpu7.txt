@@ -1,0 +1,23 @@
+Socket: FM2 +
+
+Number of cores: 4
+Number of threads: 4
+Cache size: 2Mb
+Frequency: 3800
+Overclocking capability: no
+
+Memory type: DDR3
+Maximum capacity: 64Gb
+Number of memory channels: 1
+Min. frequency: 1066MHz
+Max. frequency: 1600MHz
+
+Heat dissipation: 65W
+
+Integrated graphics core: yes
+Model: Sadeon S7
+Frequency: 1029MHz
+
+Description: A distinctive feature of this processor is a large cache size, due to which delays in data transfer between the RAM and the processor are reduced.
+
+Price: 3450

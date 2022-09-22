@@ -1,0 +1,8 @@
+Memory type: DDR4
+Volume: 8Gb
+Frequency: 3200
+Bandwidth: PC25609
+
+Description: Good RAM module with high clock speed
+
+Price: 3499

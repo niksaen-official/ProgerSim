@@ -1,0 +1,24 @@
+In order to successfully assemble a PC, you need to go to the PC interaction menu, click on the person sitting at the computer and you will go to the PC interaction menu, then click on the "PC Assembly" button and perform a few simple conditions:
+
+1.The sockets of the cpu and motherboard must match
+
+2.The type of RAM must match the type of RAM of the motherboard
+
+3.In order to choose the right cooler, you need to compare: the processor has a TDP indicator, and the cooler has a power dissipation
+Note: The indicator of the dissipated power of the cooler must be greater or equal to the TDP of the processor
+
+4. The frequency of the RAM must be within the supported frequency range
+Note: If the frequency of the RAM on the motherboard does not coincide with the frequency of the memory on the processor, then the lowest will be decisive.
+
+5.The power of the power supply unit must be greater than or equal to that indicated in the characteristics of the video card
+Note: If you have an integrated video card, then the power of the power supply does not matter
+
+6. Here is a list of components that are required for installation:
+1.Body
+2.Motherboard
+3.Processor
+4. Cooler
+5 RAM
+6.Video card if the processor does not have a built-in
+7.Drive, at least one
+8.Power supply

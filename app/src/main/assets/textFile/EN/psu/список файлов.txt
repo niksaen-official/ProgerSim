@@ -1,0 +1,3 @@
+psu1 = Office 300W12
+psu2 = Office 350W12
+psu3 = ZShark 400W12V

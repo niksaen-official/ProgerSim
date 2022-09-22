@@ -1,0 +1,23 @@
+Socket: FM2 +
+
+Number of cores: 2
+Number of threads: 2
+Cache size: 1Mb
+Frequency: 3900
+Overclocking capability: yes
+
+Memory type: DDR3
+Maximum capacity: 64Gb
+Number of memory channels: 2
+Min. frequency: 800MHz
+Max. frequency: 1866MHz
+
+Heat dissipation: 65W
+
+Integrated graphics core: yes
+Model: Sadeon S5
+Frequency: 756MHz
+
+Description: Its predecessor was the BMD A6-7400K processor, the main and only difference between these processors is that the BMD A6 PRO-7400B processor can work with a lot of RAM
+
+Price: 2899

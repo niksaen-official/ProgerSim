@@ -1,0 +1,3 @@
+Qt is a cross-platform IDE for software development. To master, you need to know C ++, or Python, or Ruby, or C.
+
+Price: 1560

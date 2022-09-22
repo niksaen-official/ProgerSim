@@ -1,0 +1,13 @@
+Characteristics:
+
+Case: Black Edition Case
+Motherboard: Ciostar Hi-Fi A70U3P
+Processor: BMD A6-7480
+Cooler: Cooler Tetr [R65BL450]
+RAM: 2 * Pumo [1600MP12800]
+Storage: Offside 512Gb-2500
+Power supply: Office 300W12
+
+Description: A good PC for starting, based on a processor from BMD, if you do not have enough power of the integrated graphics core, then you can buy a video card for it
+
+Price: 13 140

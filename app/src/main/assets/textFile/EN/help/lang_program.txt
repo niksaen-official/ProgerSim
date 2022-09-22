@@ -1,0 +1,70 @@
+"->" - Indicates a program
+"=>" - Indicates a book
+
+"Book C"
+    |               |-> "Virtual Studio"
+    |               |-> "Hacking IDE"
+    |
+    |=> "Книга Qt" -> "C++ Qt ISE"
+
+"Book Ruby"
+   |                        |-> "Ruby IDEA"
+   |                       |-> "Hacking IDE"
+   |
+   |=> "Book Qt" -> "C++ Qt ISE"
+
+"Book Java"
+    |                   |-> "Java IDEA"
+    |                   |-> "Hacking IDE"
+    |
+    |=> "Book blaGame Engine" -> "blaGameEngine"
+    |=> "Book JavaGame" ->"JavaGame"
+    |=> "Book JavaFX" -> "JaaFXID"
+    |=> "Book Android API" -> "Android IDEA"
+
+"Book C#" -> "Virtual Studio"
+    |
+    |=> "Book uniC#" -> "uniC#"
+    |=> "Book C# Game LLC" -> "C# GameLLC"
+    |=> "Book blaGame Engine" -> "blaGameEngine"
+    |=> "Book C# WPF"-> "BioWPF"
+    |=> "Book on WinForms"|-> "Virtual Studio"
+                                                  |-> "WinForms App Creator"
+
+"Book C++"
+    |                  |-> "Virtual Studio"
+    |                  |-> "Hacking IDE"
+    |
+    |=> "Book CPPame" -> "CPPame"
+    |=> "Book tauCPP Game" -> "tauCPP Game"
+    |=> "Book blaGame Engine" -> "blaGameEngine"
+    |=> "Book Qt" -> "C++ Qt ISE"
+    |=> "Book on wxWidgets"   |-> "Virtual Studio"
+                                                       |-> "wxWidgets IDE"
+
+"Book Python"
+    |                       |-> "Virtual Studio"
+    |                       |-> "Hacking IDE"
+    |
+    |=> "Book PythoAme" -> "PythoAme"
+    |=> "Book Qt" -> "C++ Qt ISE"
+
+"Book JavaScript" -> "Hacking IDE"
+   |
+   |=> "Book caJS Engine" -> "caJS Engine"
+   |=> "Book JS Engn" -> "JS Engn"
+
+"Book Lua"
+   |
+   |=> "Book LuaME" -> "LuaME"
+
+"Book Kotlin" -> "Kotlin IDE"
+
+"Book HTML" -> "FlaWEB IDE","Notepad"
+ "Book CSS"  -> "FlaWEB IDE","Notepad"
+ "Book JavaScript" -> "FlaWEB IDE"
+
+ "Book MySQL" -> "Local Host"
+
+ "Book PHP" -> "Free BACK IDEA"
+ "Book Node.js" -> "Free BACK IDEA"

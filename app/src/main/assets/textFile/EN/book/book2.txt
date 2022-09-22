@@ -1,0 +1,3 @@
+C ++ is a compiled, statically typed general-purpose programming language. Used to create games and applications.
+
+Price: 1000

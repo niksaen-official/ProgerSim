@@ -1,0 +1,10 @@
+A good engine for starting the game, as well as many other engines, is not picky about the hardware.
+
+System requirements:
+   CPU:
+     Cores: 2+
+   RAM: 2Gb +
+   GPU: Jntel HD Graphics 510 or better
+   Disk space: 20 Gb
+
+Price: 1500
