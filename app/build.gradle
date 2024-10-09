@@ -32,8 +32,6 @@ android {
 }
 
 dependencies {
-    def billing_version = "4.0.0"
-    implementation "com.android.billingclient:billing:$billing_version"
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'com.google.code.gson:gson:2.8.6'
     //noinspection GradleCompatible
